@@ -6,7 +6,7 @@ import wrappers.OpentapsWrappers;
 public class ViewLeadPage extends OpentapsWrappers {
 	public ViewLeadPage(){
 		if(!verifyTitle("View Lead | opentaps CRM") ){
-			Reporter.reportStep("Landed in Wrong Page.This is not View Lead page","FAIL");
+			Reporter.reportStep("Landed in the Wrong Page.This is not View Lead page","FAIL");
 		}
 	}
 	
